@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		85FD2C6E2D09DA5B0054DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD2C552D09DA5A0054DA5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FD2C5C2D09DA5A0054DA5D;
+			remoteInfo = "Vote-inator";
+		};
+		85FD2C782D09DA5B0054DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD2C552D09DA5A0054DA5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FD2C5C2D09DA5A0054DA5D;
+			remoteInfo = "Vote-inator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85FD2C5D2D09DA5A0054DA5D /* Vote-inator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vote-inator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD2C6D2D09DA5B0054DA5D /* Vote-inatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vote-inatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD2C772D09DA5B0054DA5D /* Vote-inatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vote-inatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		85FD2C5F2D09DA5A0054DA5D /* Vote-inator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vote-inator";
+			sourceTree = "<group>";
+		};
+		85FD2C702D09DA5B0054DA5D /* Vote-inatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vote-inatorTests";
+			sourceTree = "<group>";
+		};
+		85FD2C7A2D09DA5B0054DA5D /* Vote-inatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vote-inatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85FD2C5A2D09DA5A0054DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C6A2D09DA5B0054DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C742D09DA5B0054DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85FD2C542D09DA5A0054DA5D = {
+			isa = PBXGroup;
+			children = (
+				85FD2C5F2D09DA5A0054DA5D /* Vote-inator */,
+				85FD2C702D09DA5B0054DA5D /* Vote-inatorTests */,
+				85FD2C7A2D09DA5B0054DA5D /* Vote-inatorUITests */,
+				85FD2C5E2D09DA5A0054DA5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85FD2C5E2D09DA5A0054DA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FD2C5D2D09DA5A0054DA5D /* Vote-inator.app */,
+				85FD2C6D2D09DA5B0054DA5D /* Vote-inatorTests.xctest */,
+				85FD2C772D09DA5B0054DA5D /* Vote-inatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85FD2C5C2D09DA5A0054DA5D /* Vote-inator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD2C812D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inator" */;
+			buildPhases = (
+				85FD2C592D09DA5A0054DA5D /* Sources */,
+				85FD2C5A2D09DA5A0054DA5D /* Frameworks */,
+				85FD2C5B2D09DA5A0054DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				85FD2C5F2D09DA5A0054DA5D /* Vote-inator */,
+			);
+			name = "Vote-inator";
+			packageProductDependencies = (
+			);
+			productName = "Vote-inator";
+			productReference = 85FD2C5D2D09DA5A0054DA5D /* Vote-inator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FD2C6C2D09DA5B0054DA5D /* Vote-inatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD2C842D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inatorTests" */;
+			buildPhases = (
+				85FD2C692D09DA5B0054DA5D /* Sources */,
+				85FD2C6A2D09DA5B0054DA5D /* Frameworks */,
+				85FD2C6B2D09DA5B0054DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FD2C6F2D09DA5B0054DA5D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85FD2C702D09DA5B0054DA5D /* Vote-inatorTests */,
+			);
+			name = "Vote-inatorTests";
+			packageProductDependencies = (
+			);
+			productName = "Vote-inatorTests";
+			productReference = 85FD2C6D2D09DA5B0054DA5D /* Vote-inatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85FD2C762D09DA5B0054DA5D /* Vote-inatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD2C872D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inatorUITests" */;
+			buildPhases = (
+				85FD2C732D09DA5B0054DA5D /* Sources */,
+				85FD2C742D09DA5B0054DA5D /* Frameworks */,
+				85FD2C752D09DA5B0054DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FD2C792D09DA5B0054DA5D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85FD2C7A2D09DA5B0054DA5D /* Vote-inatorUITests */,
+			);
+			name = "Vote-inatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Vote-inatorUITests";
+			productReference = 85FD2C772D09DA5B0054DA5D /* Vote-inatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85FD2C552D09DA5A0054DA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					85FD2C5C2D09DA5A0054DA5D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					85FD2C6C2D09DA5B0054DA5D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 85FD2C5C2D09DA5A0054DA5D;
+					};
+					85FD2C762D09DA5B0054DA5D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 85FD2C5C2D09DA5A0054DA5D;
+					};
+				};
+			};
+			buildConfigurationList = 85FD2C582D09DA5A0054DA5D /* Build configuration list for PBXProject "Vote-inator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85FD2C542D09DA5A0054DA5D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 85FD2C5E2D09DA5A0054DA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85FD2C5C2D09DA5A0054DA5D /* Vote-inator */,
+				85FD2C6C2D09DA5B0054DA5D /* Vote-inatorTests */,
+				85FD2C762D09DA5B0054DA5D /* Vote-inatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85FD2C5B2D09DA5A0054DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C6B2D09DA5B0054DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C752D09DA5B0054DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85FD2C592D09DA5A0054DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C692D09DA5B0054DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD2C732D09DA5B0054DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FD2C6F2D09DA5B0054DA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FD2C5C2D09DA5A0054DA5D /* Vote-inator */;
+			targetProxy = 85FD2C6E2D09DA5B0054DA5D /* PBXContainerItemProxy */;
+		};
+		85FD2C792D09DA5B0054DA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FD2C5C2D09DA5A0054DA5D /* Vote-inator */;
+			targetProxy = 85FD2C782D09DA5B0054DA5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85FD2C7F2D09DA5B0054DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85FD2C802D09DA5B0054DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85FD2C822D09DA5B0054DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vote-inator/Preview Content\"";
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85FD2C832D09DA5B0054DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vote-inator/Preview Content\"";
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85FD2C852D09DA5B0054DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vote-inator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vote-inator";
+			};
+			name = Debug;
+		};
+		85FD2C862D09DA5B0054DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vote-inator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vote-inator";
+			};
+			name = Release;
+		};
+		85FD2C882D09DA5B0054DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vote-inator";
+			};
+			name = Debug;
+		};
+		85FD2C892D09DA5B0054DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24F79F2W6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vote-inator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85FD2C582D09DA5A0054DA5D /* Build configuration list for PBXProject "Vote-inator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD2C7F2D09DA5B0054DA5D /* Debug */,
+				85FD2C802D09DA5B0054DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD2C812D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD2C822D09DA5B0054DA5D /* Debug */,
+				85FD2C832D09DA5B0054DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD2C842D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD2C852D09DA5B0054DA5D /* Debug */,
+				85FD2C862D09DA5B0054DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD2C872D09DA5B0054DA5D /* Build configuration list for PBXNativeTarget "Vote-inatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD2C882D09DA5B0054DA5D /* Debug */,
+				85FD2C892D09DA5B0054DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85FD2C552D09DA5A0054DA5D /* Project object */;
+}
