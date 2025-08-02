@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		85443AA42D09F2120089A428 /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 85443AA32D09F2120089A428 /* metamask-ios-sdk */; };
+		85FD2C912D09DBB80054DA5D /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 85FD2C902D09DBB80054DA5D /* Web3 */; };
+		85FD2C932D09DBB80054DA5D /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 85FD2C922D09DBB80054DA5D /* Web3ContractABI */; };
+		85FD2C952D09DBB80054DA5D /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 85FD2C942D09DBB80054DA5D /* Web3PromiseKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		85FD2C6E2D09DA5B0054DA5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +36,22 @@
 		85FD2C772D09DA5B0054DA5D /* Vote-inatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vote-inatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		85443AAB2D09F5ED0089A428 /* Exceptions for "Vote-inator" folder in "Vote-inator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 85FD2C5C2D09DA5A0054DA5D /* Vote-inator */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		85FD2C5F2D09DA5A0054DA5D /* Vote-inator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				85443AAB2D09F5ED0089A428 /* Exceptions for "Vote-inator" folder in "Vote-inator" target */,
+			);
 			path = "Vote-inator";
 			sourceTree = "<group>";
 		};
@@ -52,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FD2C932D09DBB80054DA5D /* Web3ContractABI in Frameworks */,
+				85FD2C952D09DBB80054DA5D /* Web3PromiseKit in Frameworks */,
+				85443AA42D09F2120089A428 /* metamask-ios-sdk in Frameworks */,
+				85FD2C912D09DBB80054DA5D /* Web3 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +136,10 @@
 			);
 			name = "Vote-inator";
 			packageProductDependencies = (
+				85FD2C902D09DBB80054DA5D /* Web3 */,
+				85FD2C922D09DBB80054DA5D /* Web3ContractABI */,
+				85FD2C942D09DBB80054DA5D /* Web3PromiseKit */,
+				85443AA32D09F2120089A428 /* metamask-ios-sdk */,
 			);
 			productName = "Vote-inator";
 			productReference = 85FD2C5D2D09DA5A0054DA5D /* Vote-inator.app */;
@@ -195,6 +223,10 @@
 			);
 			mainGroup = 85FD2C542D09DA5A0054DA5D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				85FD2C8F2D09DBB80054DA5D /* XCRemoteSwiftPackageReference "Web3.swift" */,
+				85443AA22D09F2120089A428 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 85FD2C5E2D09DA5A0054DA5D /* Products */;
 			projectDirPath = "";
@@ -321,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -399,6 +431,7 @@
 				DEVELOPMENT_TEAM = 24F79F2W6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vote-inator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vote-inator.app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +461,7 @@
 				DEVELOPMENT_TEAM = 24F79F2W6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vote-inator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GameAntics.Vote-inator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vote-inator.app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +592,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85443AA22D09F2120089A428 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetaMask/metamask-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.10;
+			};
+		};
+		85FD2C8F2D09DBB80054DA5D /* XCRemoteSwiftPackageReference "Web3.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boilertalk/Web3.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85443AA32D09F2120089A428 /* metamask-ios-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85443AA22D09F2120089A428 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
+			productName = "metamask-ios-sdk";
+		};
+		85FD2C902D09DBB80054DA5D /* Web3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85FD2C8F2D09DBB80054DA5D /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3;
+		};
+		85FD2C922D09DBB80054DA5D /* Web3ContractABI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85FD2C8F2D09DBB80054DA5D /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3ContractABI;
+		};
+		85FD2C942D09DBB80054DA5D /* Web3PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85FD2C8F2D09DBB80054DA5D /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85FD2C552D09DA5A0054DA5D /* Project object */;
 }
