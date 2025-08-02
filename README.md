@@ -149,14 +149,6 @@ struct Proposal {
 }
 ```
 
-## Contributing 🤝
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## Security Considerations 🔒
 
 - All transactions require MetaMask approval
@@ -164,40 +156,9 @@ struct Proposal {
 - Smart contract interactions are read-only except for explicit voting actions
 - Vote data is immutably stored on blockchain
 
-## Roadmap 🗺️
-
-- [ ] Multi-network support (Ethereum mainnet, other L2s)
-- [ ] Proposal creation interface  
-- [ ] Community creation functionality
-- [ ] Push notifications for new proposals
-- [ ] Vote delegation features
-- [ ] Enhanced analytics and voting history
-
 ## Dependencies 📦
 
 - `metamask_ios_sdk`: MetaMask wallet integration
 - `Web3.swift`: Ethereum blockchain interaction
 - `Web3PromiseKit`: Promise-based async Web3 calls  
 - `Web3ContractABI`: Smart contract ABI handling
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments 🙏
-
-- MetaMask team for the excellent iOS SDK
-- Web3.swift contributors for blockchain tooling
-- Unsplash for the beautiful gradient banner images
-- The Ethereum and Polygon communities
-
-## Support 💬
-
-For questions or support, please:
-- Open an issue on GitHub
-- Check existing documentation
-- Review smart contract interactions in `BlockchainService.swift`
-
----
-
-**Vote-inator 3000** - Democratizing decision-making through decentralized technology! 🗳️⚡
