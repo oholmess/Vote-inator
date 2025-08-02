@@ -2,7 +2,7 @@
 
 ## Introduction ℹ️
 
-This is a personal project created 100% alone. I wanted to challenge myself to make a basic functioning blockchain powered voting application under 6 hours from scratch, every line coded by me. That estimation turned out to be quite... optimistic. I managed to get the application functioning after around 14 hours of work. Which I'm still proud of.
+This is a personal project created alone. I wanted to challenge myself to make a basic functioning blockchain powered voting application under 6 hours from scratch, every line coded by me. That estimation turned out to be quite... optimistic. I managed to get the application functioning after around 14 hours of work. Which I'm still proud of.
 
 # Vote-inator 🗳️
 
