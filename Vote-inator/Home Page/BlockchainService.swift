@@ -20,7 +20,7 @@ class BlockchainService: ObservableObject {
         self.metaMaskRepo = metaMaskRepo
     }
     
-    let web3 = Web3(rpcURL: "https://polygon-mainnet.g.alchemy.com/v2/yh8Ol9neD9Ulf_8xikpRCClzBdWNjWXQ")
+    let web3 = Web3(rpcURL: "https://polygon-mainnet.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY")
 
     func loadContract() throws -> DynamicContract {
         let contractAddress = try EthereumAddress(hex: "0x5139b21d7aca1b1F029C90bFFe3894cE6F11a2B8", eip55: true)

@@ -85,14 +85,20 @@ git clone https://github.com/yourusername/Vote-inator.git
 cd Vote-inator
 ```
 
-2. Open the project in Xcode:
+2. **Configure API Keys** (Required):
+   - Get an Alchemy API key from [https://alchemy.com](https://alchemy.com)
+   - Get an Infura API key from [https://infura.io](https://infura.io)
+   - Replace `YOUR_ALCHEMY_API_KEY` in `Vote-inator/Home Page/BlockchainService.swift`
+   - Replace `YOUR_INFURA_API_KEY` in `Vote-inator/Authorization/MetaMaskRepo.swift`
+
+3. Open the project in Xcode:
 ```bash
 open Vote-inator.xcodeproj
 ```
 
-3. Install dependencies via Swift Package Manager (already configured in project)
+4. Install dependencies via Swift Package Manager (already configured in project)
 
-4. Build and run the project on your device or simulator
+5. Build and run the project on your device or simulator
 
 ### Configuration
 
@@ -155,6 +161,8 @@ struct Proposal {
 - Private keys never leave the MetaMask app
 - Smart contract interactions are read-only except for explicit voting actions
 - Vote data is immutably stored on blockchain
+- **API Keys**: Never commit API keys to version control - always use placeholders in public repos
+- **Network Security**: All blockchain calls go through trusted RPC providers (Alchemy/Infura)
 
 ## Dependencies 📦
 

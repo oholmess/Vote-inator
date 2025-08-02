@@ -37,7 +37,7 @@ class MetaMaskRepo: ObservableObject {
         self.metamaskSDK = MetaMaskSDK.shared(
             appMetadata,
             transport: .deeplinking(dappScheme: "vote-inator"),
-            sdkOptions: SDKOptions(infuraAPIKey: "6296df26da0c49ac8def8a31c1aed2b5", readonlyRPCMap: ["0x1": "hptts://www.testrpc.com"]) // for read-only RPC calls
+            sdkOptions: SDKOptions(infuraAPIKey: "YOUR_INFURA_API_KEY", readonlyRPCMap: ["0x1": "hptts://www.testrpc.com"]) // for read-only RPC calls
         )
         observeConnectionStatus()
     }
