@@ -37,29 +37,12 @@ struct HomePageView: View {
                     .padding(.leading)
                     .opacity(0.8)
                 
-                //            Text("Connected: \(metaMaskRepo.connectionStatus)")
-                //            Text("Chain ID: \(metaMaskRepo.chainID)")
-                //            Text("Account: \(metaMaskRepo.account)")
-                
                 List(vm.communities.indices, id: \.self) { index in
                     let community = vm.communities[index]
                     CommunityWidget(community: community, selectedCommunity: $selectedCommunity)
                 }
                 .listStyle(.plain)
-                
-                //            List(vm.communities.indices, id: \.self) { index in
-                //                let community = vm.communities[index]
-                //                Section(header: Text(community.name).font(.headline)) {
-                //                    ForEach(community.proposals) { proposal in
-                //                        VStack(alignment: .leading) {
-                //                            Text("Proposal: \(proposal.title)")
-                //                            Text("Votes For: \(proposal.votesFor), Against: \(proposal.votesAgainst)")
-                //                            Text("Active: \(proposal.isActive ? "Yes" : "No")")
-                //                                .foregroundColor(proposal.isActive ? .green : .red)
-                //                        }
-                //                    }
-                //                }
-                //            }
+
             }
         }
         .onAppear {
