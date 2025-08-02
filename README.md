@@ -4,11 +4,6 @@
 
 This is a personal project created 100% alone. I wanted to challenge myself to make a basic functioning blockchain powered voting application under 6 hours from scratch, every line coded by me. That estimation turned out to be quite... optimistic. I managed to get the application functioning after around 14 hours of work. Which I'm still proud of.
 
-
-## Project Overview 📄
-
----
-
 # Vote-inator 🗳️
 
 A decentralized voting iOS application that enables community-based governance through blockchain technology. Vote-inator connects to MetaMask wallets and allows users to participate in transparent, immutable voting processes across various communities.
